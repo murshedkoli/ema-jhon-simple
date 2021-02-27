@@ -1,0 +1,25 @@
+.single-product-container{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.image-container{
+    width: 30%;
+}
+.name-container{
+    width: 70%;
+}
+
+.info-tab{
+    display: flex;
+}
+
+.category-price{
+    width: 50%;
+}
+
+
+.name-container h2{
+    color: #ff9800;
+}
