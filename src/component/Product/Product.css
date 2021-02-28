@@ -23,3 +23,9 @@
 .name-container h2{
     color: #ff9800;
 }
+
+.cart-btn{
+    padding: 10px 60px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
