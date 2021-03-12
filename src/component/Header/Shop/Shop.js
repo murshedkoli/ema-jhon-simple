@@ -22,12 +22,12 @@ const Shop = () => {
             <div className="product-container">
                 <ul>
                     {
-                        products.map(product => <Product product={product} handleAddCart={handleAddCart}></Product>)
+                        products.map(product => <Product showBtn={true} product={product} handleAddCart={handleAddCart}></Product>)
                     }
                 </ul>
             </div>
             <div className="cart-container">
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
